@@ -1,0 +1,437 @@
+@charset "utf-8";
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff;
+    }
+   div,span{
+        color: #767676;
+        font-size: 12px;
+    }
+    ul,li{
+        list-style: none;
+    }
+.main ul .br-b{
+        border-bottom: 0;
+    }
+.main ul .br-r{
+        border-right: 0;
+    }
+    .fl{
+        float: left;
+    }
+    .fc{
+        float: contour;
+    }
+    .fr{
+        float: right;
+    }
+    .header{
+        width: 100%;
+        height: 46px;
+        background-color: #d95900;
+    }
+    .header-top{
+        width: 1305px;
+        height: 46px;
+        text-align: center;
+        line-height: 46px;
+        margin: 0 auto;
+    }
+     /*上部分结束*/
+ /*菜单导航开始*/
+    .menu{
+        width: 100%;
+        height: 76px;
+        background-color: #167fc7;
+    }
+    .logo a img{
+        display: block;
+        width: 257px;
+        height: 28px;
+        margin-top: 23px;
+    }
+    .nav{
+        width: 1305px;
+        height: 76px;
+        margin: 0 auto;
+    }
+    .nav ul{
+        width: 1000px;
+        height: 76px;
+        float: right;
+    }
+    .nav ul li{
+        float: left;
+        line-height: 76px;
+        padding: 0 10px;
+        position: relative;
+    }
+    .nav ul li img {
+        display: block;
+        float: right;
+        position: absolute;
+        top:20px;
+        left: 25px;
+    }
+    .wieht{
+        float: left;
+        margin-left: 20px;
+        margin-top: 22px;
+        border-radius: 5px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        height: 30px;
+        width: 52px;
+        background-color: #fff;
+        color: #167fc7;
+    }
+            /*菜单导航结束*/
+/*背景图片开始*/
+
+    .back a{
+        display: block;
+        height: 667px;
+        width: 100%;
+    }
+    .back a img {
+        height: 667px;
+        width: 100%;
+    }
+    /*背景图片结束*/
+/*友情链接营销版开始*/
+    .friendlink{
+        width: 100%;
+        height: 400px;
+        background-color: #f2f2f2;
+    }
+    .friendlink-content{
+        padding-top: 58px;
+        width: 1305px;
+        height: 349px;
+        margin: 0 auto;
+        text-align: center;
+    }
+     h4{
+        font-size: 22px;
+        color: #000000;
+    }
+    .particulars{
+        width: 370px;
+        height: 28px;
+        margin: 0 auto;
+    }
+    .blue{
+        display: inline-block;
+        width: 49px;
+        height: 23px;
+        border-radius:3px  ;
+        background-color: #198ede;
+        text-align: center;
+        line-height: 23px;
+    }
+    .star{
+        display: block;
+        height: 35px;
+        border-radius:3px  ;
+        background-color: #198ede;
+        margin: 0 auto;
+        width: 158px;
+        line-height: 35px;
+    }
+    .friendlink-content a img{
+        margin-top: 20px;
+    }
+    .mrg{
+        margin: 0 65px;
+    }
+/*友情链接营销版结束*/
+    .generalize{
+        padding-top: 58px;
+        width: 1305px;
+        height: 130px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .generalize span{
+        color: #767676;
+    }
+/*            页面主体内容开始*/
+    .main{
+        width: 1361px;
+        height: 550px;
+        margin: 0 auto;
+    }
+    .main ul{
+        width: 1361px;
+        height: 550px;
+        margin: 0 auto;
+    }
+    .main ul li{
+        width: 270px;
+        height: 174px;
+        border-bottom: 1px solid #dadada;
+        border-right: 1px solid #dadada;
+        float: left;
+        line-height: 25px;
+        text-align: center;
+    }
+    .main ul li img{
+        margin-top: 20px;
+    }
+    .main ul li div{
+        width: 159px;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    .cen{
+        height: 22px;
+        width: 251px;
+        margin:70px auto;
+    }
+
+/*                页面主体内容结束*/
+/*升级页面开始*/
+    .free{
+        width: 944px;
+        height: 90px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .free-sj{
+        width: 388px;
+        height: 90px;
+        background-color: #198ede;
+        line-height: 30px;
+        position: absolute;
+        border-radius:10px ;
+    }
+    .free-sj a{
+        display: block;
+        position: absolute;
+        width: 170px;
+        left: 180px;
+        top: 20px;
+
+    }
+    .free-sj img{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+    .free-mf{
+        width: 388px;
+        height: 90px;
+        background-color: #198ede;
+        line-height: 30px;
+        position: absolute;
+        border-radius:10px ;
+        left: 500px;
+
+    }
+    .free-mf a{
+        display: block;
+        position: absolute;
+        width: 170px;
+        left: 180px;
+        top: 20px;
+    }
+    .free-mf img{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+    /*电脑部分开始*/
+    .comp{
+        margin-top: 50px;
+        width: 100%;
+        height: 84px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .comp ul{
+        width: 1380px;
+        height: 83px;
+        margin: 0 auto;
+    }
+    .comp ul li{
+        width: 458px;
+        height: 84px;
+        float: left;
+        text-align: center;
+        border-left: 1px solid #bdbdbd;
+        border-right: 1px solid #bdbdbd;
+    }
+    .comp ul li img{
+        margin-top: 17px;
+    }
+    .comp ul li a{
+        display: block;
+        width: 458px;
+        height: 79px;
+    }
+    .comp ul li:hover{
+        border-left: 0;
+        border-right: 0;
+    }
+    .comp ul a:hover{
+        border-bottom: 5px solid #198ede;
+    }
+    /*电脑部分结束*/
+    /*手机分享列表开始*/
+    .menu-but{
+        width: 100%;
+        height: 750px;
+        background-color: #f2f2f2;
+    }
+    .menu-top{
+        padding-top: 40px;
+        width: 600px;
+        height: 135px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .menu-top span{
+        color: #767676;
+    }
+    .menu-bot{
+        width: 1360px;
+        height: 580px;
+        margin: 0 auto;
+    }
+    .menu-bot li{
+        width: 251px;
+        height: 213px;
+        float: left;
+        margin: 30px 40px;
+    }
+    /*手机分享列表结束*/
+    .more{
+        width: 232px;
+        height: 48px;
+        margin: 30px auto;
+        border-radius:3px;
+        border: 1px solid #bdbdbd;
+        text-align: center;
+        line-height: 48px;
+    }
+                            /*页面背景图开始*/
+    .background{
+        background-image: url("../images/main.jpg");
+        width: 100%;
+        height: 670px;
+    }
+    .background,span{
+        color: #fff;
+    }
+    .background div{
+        color: #fff;
+    }
+    .background h3{
+        font-size: 18px;
+        color: #198ede;
+    }
+    .background-top{
+        width: 112px;
+        height: 58px;
+        text-align: center;
+        padding-top: 70px;
+        margin: 0 auto;
+    }
+    .background-bottom{
+        width: 1397px;
+        height: 360px;
+        margin:70px auto;
+    }
+    .background-bottom ul{
+        width: 560px;
+        height: 350px;
+
+    }
+    .back-left {
+        width: 560px;
+        height: 45px;
+        border-bottom: 1px solid #ffffff;
+        line-height: 45px;
+        display: inline-block;
+    }
+    .back-left div{
+
+    }
+    .back-left img{
+        width: 22px;
+        height: 26px;
+        float: left;
+    }
+    .back-left div{
+        width: 200px;
+        float: left;
+    }
+
+    .back-left span{
+        width: 70px;
+        float: right;
+    }
+    .background-bottom li{
+        width: 555px;
+        height: 45px;
+        border-bottom: 1px solid #ffffff;
+        line-height: 45px;
+    }
+    .background-bottom li img{
+        float: left;
+        margin-top: 20px;
+    }
+    .background-bottom li a{
+        margin-left: 5px;
+        float: left;
+    }
+    .background-bottom li span{
+        float: right;
+    }
+                                            /*页面背景图结束*/
+
+
+   /*结尾开始 */
+    .end{
+        height: 240px;
+        width: 100%;
+        background-color: #323232;
+        position: relative;
+    }
+    .end-left{
+        width: 1064px;
+        height: 132px;
+        margin-top: 40px;
+    }
+    .end-left ul span{
+        color: #797979;
+        margin-left: 20px;
+    }
+    .end-left ul span{
+        font-size: 18px;
+    }
+    .end-left ul li{
+        height: 27px;
+        margin-left: 20px;
+        line-height: 27px;
+    }
+    .end-right{
+        width: 100px;
+        height: 32px;
+        margin-top: 80px; ;
+    }
+    .end-right img{
+        /*display: block;*/
+        width: 30px;
+        height: 30px;
+        background-color: #797979;
+        border-radius: 4px;
+        margin-left: 10px;
+    }
